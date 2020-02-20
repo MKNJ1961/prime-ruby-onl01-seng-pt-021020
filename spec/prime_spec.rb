@@ -4,7 +4,7 @@ require_relative '../prime.rb'
 
 
 
-  it 'returns false for non-prime numbers' do
+it 'returns false for non-prime numbers' do
     expect(prime?(-1)).to be(false), "Be sure to account for negative numbers!"
     expect(prime?(0)).to be(false)
     expect(prime?(1)).to be(false)
